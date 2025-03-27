@@ -1,0 +1,69 @@
+/* Background Color */
+body {
+    background-color: #87CEEB;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading Style */
+h1 {
+    color: #FFA500; /* Black */
+    font-size: 36px;
+    padding: 10px;
+}
+
+
+/* Paragraph Style */
+p {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.button {
+    background-color: #FFE5B4; /* Golden Yellow */
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    background-color: #E1AD01; /* Dark Yellow */
+}
+/* Navigation Bar */
+nav {
+    background-color: #FFC107; /* Golden Yellow */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff; /* White when hovered */
+}
